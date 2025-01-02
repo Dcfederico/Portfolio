@@ -1,0 +1,35 @@
+html {
+    font-size: 12pt;
+}
+
+body {
+    background-color: #474A56;
+}
+
+.header {
+    background-color: #0B0B0D;
+    margin: 1% 1% 0%;
+}
+
+p.header {
+    text-align: center;
+}
+
+#header_img {
+    height: 400px;
+    margin-top: 1%;
+    /* margin-left: 25%; */
+    
+}
+
+div.menu {
+    background-color: #0B0B0D;
+    text-align: center;
+    color: #D3D5FD;
+    margin: 0px 1% 1%;
+}
+
+#menu_h1 {
+    margin: 0% 1% 1%;
+    font-size: 2rem;
+}
