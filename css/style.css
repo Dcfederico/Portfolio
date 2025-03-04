@@ -1,62 +1,107 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-size: 12pt;
-}
-
-body, footer {
+body,
+footer {
   font-family: "DM Serif Text", serif;
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
+  /* background-color: #F4F6FF; */
 }
 
-.nav {
-  background-color: #000957;
-}
-.navbar {
-  display: flex;
-  gap: 25px;
-  align-items: center;
-  color: #577BC1;
-  width: 100%;
-  padding: 10px;
+
+
+/* Menu */
+.navbarFdc {
+  background-color: #0d1282 !important; /* Imposta lo sfondo della navbar */
 }
 
-.navbar-nav {
-  display: flex;
-  gap: 25px;
-  list-style: none;
-  margin-right: auto;
-}
-
-.navbar-search {
-  display: flex;
-  gap: 10px;
-  margin-right: 25px;
+.navbar-toggler {
+  background-color: #f4f6ff;
+  /* color: #F3C623; */
 }
 
 .navbar-brand {
-  color: #FFEB00;
-  text-decoration: none;
+  color: #f0de36; /* Imposta il colore del testo dei link */
   font-size: 1.5rem;
 }
 
-.nav-link  {
-  color: #577BC1;
-  text-decoration: none;
+.navbarFdc .nav-link {
+  color: #f4f6ff; /* Imposta il colore del testo dei link */
 }
 
-a:hover {
-  color: #FFEB00;
+.navbarFdc .nav-link.active {
+  color: #f4f6ff; /* Imposta il colore del link attivo */
 }
 
-.navbar-searchIn {
-  background-color: #577BC1;
-  border-color: #FFEB00;
+.navbarFdc .nav-link:hover,
+.navbarFdc .navbar-brand:hover {
+  color: #f0de36; /* Colore del testo dei link quando si passa sopra con il mouse (facoltativo) */
 }
 
-.navbar-searchBtn {
-  background-color: #577BC1;
-  border-color: #FFEB00;
-  padding: 2px 4px;
+.searchFdc {
+  background-color: #f4f6ff;
+  border-color: #f4f6ff;
+}
+
+.btnFdc {
+  border-color: #f4f6ff;
+  color: #f4f6ff;
+}
+
+
+
+/* Header */
+.headerFdc {
+  background-color: #0d1282;
+}
+
+.headerFdc * {
+  background-color: transparent;
+  color: #f4f6ff !important;
+}
+
+.FdcImg {
+  margin: 5% 0;
+}
+
+
+
+/* Profile */
+.profileFdc {
+  background-color: #f4f6ff;
+}
+
+.profileFdc * {
+  background-color: transparent;
+  color: #0d1282;
+}
+
+.rowProfileFdc * {
+  color: #0d1282;
+}
+
+
+
+/* skillsFdc */
+.skillsFdc {
+  background-color: #f4f6ff;
+  color: #0d1282 !important;
+}
+
+.skillsFdc * {
+  background-color: transparent;
+  color: #0d1282 !important;
+}
+
+
+/* footer */
+.footerFdc {
+  background-color: #0d1282;
+}
+
+.footerFdc * {
+  background-color: transparent;
+  color: #f4f6ff !important;
+}
+
+svg {
+  fill: #f4f6ff; /* O un altro colore */
 }
