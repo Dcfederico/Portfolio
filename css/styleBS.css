@@ -1,0 +1,107 @@
+body,
+footer {
+  font-family: "DM Serif Text", serif;
+  font-weight: normal;
+  font-style: normal;
+  /* background-color: #F4F6FF; */
+}
+
+
+
+/* Menu */
+.navbarFdc {
+  background-color: #0d1282 !important; /* Imposta lo sfondo della navbar */
+}
+
+.navbar-toggler {
+  background-color: #f4f6ff;
+  /* color: #F3C623; */
+}
+
+.navbar-brand {
+  color: #f0de36; /* Imposta il colore del testo dei link */
+  font-size: 1.5rem;
+}
+
+.navbarFdc .nav-link {
+  color: #f4f6ff; /* Imposta il colore del testo dei link */
+}
+
+.navbarFdc .nav-link.active {
+  color: #f4f6ff; /* Imposta il colore del link attivo */
+}
+
+.navbarFdc .nav-link:hover,
+.navbarFdc .navbar-brand:hover {
+  color: #f0de36; /* Colore del testo dei link quando si passa sopra con il mouse (facoltativo) */
+}
+
+.searchFdc {
+  background-color: #f4f6ff;
+  border-color: #f4f6ff;
+}
+
+.btnFdc {
+  border-color: #f4f6ff;
+  color: #f4f6ff;
+}
+
+
+
+/* Header */
+.headerFdc {
+  background-color: #0d1282;
+}
+
+.headerFdc * {
+  background-color: transparent;
+  color: #f4f6ff !important;
+}
+
+.FdcImg {
+  margin: 5% 0;
+}
+
+
+
+/* Profile */
+.profileFdc {
+  background-color: #f4f6ff;
+}
+
+.profileFdc * {
+  background-color: transparent;
+  color: #0d1282;
+}
+
+.rowProfileFdc * {
+  color: #0d1282;
+}
+
+
+
+/* skillsFdc */
+.skillsFdc {
+  background-color: #f4f6ff;
+  color: #0d1282 !important;
+}
+
+.skillsFdc * {
+  background-color: transparent;
+  color: #0d1282 !important;
+}
+
+
+/* footer */
+.footerFdc {
+  background-color: #0d1282;
+}
+
+.footerFdc * {
+  background-color: transparent;
+  color: #f4f6ff !important;
+}
+
+svg {
+  fill: #f4f6ff; /* O un altro colore */
+}

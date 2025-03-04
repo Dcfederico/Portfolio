@@ -1,124 +1,62 @@
-html {
+* {
+  margin: 0;
+  padding: 0;
   font-size: 12pt;
 }
 
-body {
-  background-color: #474a56;
-  margin: 0%;
+body, footer {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-/* Header */
-.header {
-  /* azzero margin */
-  margin: 0%;
+.nav {
+  background-color: #000957;
+}
+.navbar {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  color: #577BC1;
+  width: 100%;
+  padding: 10px;
 }
 
-div.header {
-  background-color: #0b0b0d;
-  margin: 1% 1% 0%;
-  /* width: 100%; */
+.navbar-nav {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin-right: auto;
 }
 
-p.header {
-  text-align: center;
+.navbar-search {
+  display: flex;
+  gap: 10px;
+  margin-right: 25px;
 }
 
-#header_img {
-  height: 400px;
-  margin-top: 1%;
+.navbar-brand {
+  color: #FFEB00;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
-/* Menu */
-.menu {
-  /* width: 100%; */
-  margin: 0%;
+.nav-link  {
+  color: #577BC1;
+  text-decoration: none;
 }
 
-div.menu {
-  background-color: #0b0b0d;
-  text-align: center;
-  color: #d3d5fd;
-  margin: 0px 1% 1%;
-  padding: 1%;
+a:hover {
+  color: #FFEB00;
 }
 
-#menu_h1 {
-  font-size: 2rem;
+.navbar-searchIn {
+  background-color: #577BC1;
+  border-color: #FFEB00;
 }
 
-/* link */
-.link {
-    margin: 0%;
-}
-
-div.link {
-    margin: 1%;
-    color: #0b0b0d;
-}
-
-/* Summay */
-.sum {
-    margin: 0%;
-}
-
-div.sum {
-    margin: 1%;
-}
-
-/* Work */
-.work {
-    margin: 0%;
-}
-
-div.work {
-    margin: 1%;
-}
-
-li.work {
-    margin-bottom: 5pt;
-}
-
-/* Cert */
-.cert {
-    margin: 0%;
-}
-
-li.cert {
-    margin-bottom: 5pt;
-}
-
-div.cert {
-    margin: 1%;
-}
-
-/* Edu */
-.edu {
-    margin: 0%;
-}
-
-div.edu {
-    margin: 1%;
-}
-
-li.edu {
-    margin-bottom: 5pt;
-}
-
-/* Skills  */
-.skills {
-    margin: 0%;
-}
-
-li.skills {
-    margin-bottom: 5pt;
-}
-
-div.skills {
-    margin: 1%;
-}
-
-/* footer */
-.footer {
-    margin: 1%;
-    text-align: center;
+.navbar-searchBtn {
+  background-color: #577BC1;
+  border-color: #FFEB00;
+  padding: 2px 4px;
 }

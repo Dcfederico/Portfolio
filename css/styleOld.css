@@ -1,0 +1,124 @@
+html {
+  font-size: 12pt;
+}
+
+body {
+  background-color: #474a56;
+  margin: 0%;
+}
+
+/* Header */
+.header {
+  /* azzero margin */
+  margin: 0%;
+}
+
+div.header {
+  background-color: #0b0b0d;
+  margin: 1% 1% 0%;
+  /* width: 100%; */
+}
+
+p.header {
+  text-align: center;
+}
+
+#header_img {
+  height: 400px;
+  margin-top: 1%;
+}
+
+/* Menu */
+.menu {
+  /* width: 100%; */
+  margin: 0%;
+}
+
+div.menu {
+  background-color: #0b0b0d;
+  text-align: center;
+  color: #d3d5fd;
+  margin: 0px 1% 1%;
+  padding: 1%;
+}
+
+#menu_h1 {
+  font-size: 2rem;
+}
+
+/* link */
+.link {
+    margin: 0%;
+}
+
+div.link {
+    margin: 1%;
+    color: #0b0b0d;
+}
+
+/* Summay */
+.sum {
+    margin: 0%;
+}
+
+div.sum {
+    margin: 1%;
+}
+
+/* Work */
+.work {
+    margin: 0%;
+}
+
+div.work {
+    margin: 1%;
+}
+
+li.work {
+    margin-bottom: 5pt;
+}
+
+/* Cert */
+.cert {
+    margin: 0%;
+}
+
+li.cert {
+    margin-bottom: 5pt;
+}
+
+div.cert {
+    margin: 1%;
+}
+
+/* Edu */
+.edu {
+    margin: 0%;
+}
+
+div.edu {
+    margin: 1%;
+}
+
+li.edu {
+    margin-bottom: 5pt;
+}
+
+/* Skills  */
+.skills {
+    margin: 0%;
+}
+
+li.skills {
+    margin-bottom: 5pt;
+}
+
+div.skills {
+    margin: 1%;
+}
+
+/* footer */
+.footer {
+    margin: 1%;
+    text-align: center;
+}
